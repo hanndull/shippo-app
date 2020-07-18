@@ -2,7 +2,7 @@
 
 import shippo
 
-shippo.config.api_key = "shippo_test_34e4458cd5984df74580f3095a1e6127f4c8323c " #Test Key
+shippo.config.api_key = "shippo_test_8121f1d078ea09050a0bba4b60cc2cb15d508530" #Test Key
 
 address_from = {
     "name": "Shawn Ippotle",
