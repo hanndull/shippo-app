@@ -1,17 +1,18 @@
 from random import choice
 from flask import Flask, render_template, request
-import shippo
+from shipping import create_shipment
 
 # "__name__" is a special Python variable for the name of the current module
 # Flask wants to know this to know what any imported things are relative to.
 app = Flask(__name__)
-shippo.api_key = "<API_TOKEN>"
 
 
 @app.route('/')
 def starting_test():
-    """Display homepage."""
-
+    """Display homepage. & create Test shipment"""
+    
+    create_shipment()
+    
     return "Hi! This is the home page."
 
 
