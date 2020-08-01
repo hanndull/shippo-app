@@ -13,7 +13,7 @@ def starting_test():
     
     create_shipment()
     
-    return "Hi! This is the home page."
+    return "Hi! This is the homepage."
 
 
 if __name__ == '__main__':
